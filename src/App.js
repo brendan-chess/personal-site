@@ -4,18 +4,22 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import './App.css'
 
+import Navigation from './components/Navigation/Navigation'
 import Home from './components/Home/Home'
-import Article from './components/Article/Article'
 
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-      </Switch>
+      <div className='App-container'>
+        <Navigation />
+        <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+        </Switch>
+      </div>
     </Router>
   )
 }

@@ -1,0 +1,9 @@
+.App-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #262626;
+  flex-direction: column;
+  color: #ddd;
+  font-size: 18px;
+}
