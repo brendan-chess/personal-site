@@ -1,3 +1,25 @@
-.Navigation-title {
+.Navigation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
   font-family: 'Overpass Mono';
+}
+
+.Navigation-list {
+  list-style-type: none;
+  text-align: end;
+}
+
+.Navigation-list li {
+  padding-bottom: 20px;
+}
+
+.Navigation-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.Navigation-link-active {
+  color: var(--red);
 }
