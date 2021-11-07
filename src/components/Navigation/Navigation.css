@@ -6,6 +6,36 @@
   font-family: 'Overpass Mono';
 }
 
+@keyframes Navigation-list-container-expand {
+  from {
+    max-height: 0px
+  }
+
+  to {
+    max-height: 600px
+  }
+}
+
+@keyframes Navigation-list-container-collapse {
+  from {
+    max-height: 600px
+  }
+
+  to {
+    max-height: 0px
+  }
+}
+
+.Navigation-list-container-expanded {
+  animation: Navigation-list-container-expand 0.5s ease-in forwards;
+  overflow: hidden;
+}
+
+.Navigation-list-container-collapsed {
+  animation: Navigation-list-container-collapse 0.5s ease-in forwards;
+  overflow: hidden;
+}
+
 .Navigation-list {
   list-style-type: none;
   text-align: end;
