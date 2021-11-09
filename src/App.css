@@ -1,7 +1,7 @@
 .App-container {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--gray);
   flex-direction: column;
   color: var(--white);

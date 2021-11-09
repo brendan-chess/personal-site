@@ -8,7 +8,7 @@ import './App.css'
 import Navigation from './components/Navigation/Navigation'
 import Home from './components/Home/Home'
 import Articles from './components/Articles/Articles'
-import Resume from './components/Resume/Resume'
+import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 
 const App = () => {
@@ -26,8 +26,8 @@ const App = () => {
             <Articles />
           </Route>
 
-          <Route exact path='/resume'>
-            <Resume />
+          <Route exact path='/projects'>
+            <Projects />
           </Route>
 
           <Route exact path='/contact'>
