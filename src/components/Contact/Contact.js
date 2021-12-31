@@ -1,11 +1,14 @@
-import '../../style.css'
 import './Contact.css'
+import { useEffect } from 'react'
 import instagram from './instagram.svg'
 import linkedin from './linkedin.svg'
 import github from './github.svg'
 import email from './email.svg'
 
 const Contact = () => {
+
+  useEffect(() => document.title = 'Contact | Brendan Chess', [])
+
   return (
     <div className='Page-container'>
       <div className='Page-divider' />
