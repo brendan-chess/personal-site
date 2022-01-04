@@ -1,0 +1,7 @@
+.Footer {
+  text-align: center;
+  font-family: 'Overpass Mono';
+  background-color: var(--gray);
+  color: var(--white);
+  padding: 10px 0px;
+}

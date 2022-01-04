@@ -10,6 +10,8 @@ import Navigation from './components/Navigation/Navigation'
 import Home from './components/Home/Home'
 import Articles from './components/Articles/Articles'
 import Contact from './components/Contact/Contact'
+import ArticleRoutes from './ArticleRoutes'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -30,8 +32,13 @@ const App = () => {
             <Contact />
           </Route>
 
+          <ArticleRoutes />
+
         </Switch>
+
+        
       </div>
+      <Footer />
     </Router>
   )
 }

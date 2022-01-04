@@ -8,10 +8,11 @@
 .Article-body {
   max-width: 600px;
   font-family: 'Poppins';
+  text-align: justify;
 }
 
 .Article-body > div {
-  margin: 20px 0px;
+  margin: 25px 0px;
 }
 
 .Article-title {
@@ -23,13 +24,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 18px;
-  font-weight: 500;
-}
-
-.Article-date {
-  font-size: 18px;
   font-weight: 300;
-  font-style: italic;
 }
 
 .Article-summary {
@@ -42,15 +37,27 @@
 }
 
 .Article-paragraph {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
+  line-height: 1.75;
 }
 
 .Article-paragraph-code {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Overpass Mono';
   font-weight: 400;
-  background-color: #e0e0e0;
+  background-color: #212121;
+}
+
+.Article-code-block {
+  font-family: 'Overpass Mono';
+  font-size: 14px;
+}
+
+@media screen and (max-width: 410px) {
+  .Article-code-block {
+    max-width: 330px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
