@@ -15,7 +15,7 @@ const Articles = () => {
 
       <div className='Articles-item'>
         <Link to='/algorithm_basics'>
-          <div className='Articles-item-title'>Algorithm Basics</div>
+          <div className='Articles-item-title'>Basics of Algorithm Analysis</div>
         </Link>
         <div className='Articles-item-description'>Algorithms aren't as mysterious as they may seem. Here's what you need to know about them.</div>
         <Link to='/algorithm_basics'>

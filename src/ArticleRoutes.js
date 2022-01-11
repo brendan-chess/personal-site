@@ -6,7 +6,7 @@ const ArticleRoutes = () => {
   return (
     <>
 
-      <Route exact path='/algorithm_basics'>
+      <Route exact path='/basics_of_algorithm_analysis'>
         <AlgorithmBasics />
       </Route>
 

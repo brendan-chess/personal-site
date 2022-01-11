@@ -1,4 +1,4 @@
-import { CodeBlock, a11yDark, tomorrow, tomorrowNight, anOldHope, androidstudio, arta, atomOneDark, codepen, far, github, googlecode, hopscotch, hybrid, irBlack, monoBlue, monokaiSublime, monokai, nord, obsidian, ocean, paraisoDark, pojoaque, purebasic, railscast, rainbow, shadesOfPurple, solarizedDark, sunburst, vs2015, xt256, zenburn } from "react-code-blocks"
+import { CodeBlock, railscast } from "react-code-blocks"
 import ArticleHeader from "../ArticleHeader"
 
 const AlgorithmBasics = () => {
@@ -7,7 +7,7 @@ const AlgorithmBasics = () => {
       <div class='Article-body'>
 
         <ArticleHeader
-          title='Algorithm Basics'
+          title='Basics of Algorithm Analysis'
           date='January 2022'
         />
 
