@@ -1,7 +1,7 @@
 import './Articles.css'
 import './Pages/Article.css'
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import ArticleListItem from './ArticleListItem'
 
 const Articles = () => {
 
@@ -13,16 +13,11 @@ const Articles = () => {
         <div className='Page-title'>Articles</div>
       <div className='Page-divider' />
 
-      <div className='Articles-item'>
-        <Link to='/basics_of_algorithm_analysis'>
-          <div className='Articles-item-title'>Basics of Algorithm Analysis</div>
-        </Link>
-        <div className='Articles-item-description'>Algorithms aren't as mysterious as they may seem. Here's what you need to know about them.</div>
-        <Link to='/basics_of_algorithm_analysis'>
-          <div className='Articles-item-cta'>READ ARTICLE</div>
-        </Link>
-      </div>
-      
+      <ArticleListItem 
+        path="/basics_of_algorithm_analysis"
+        title="Basics of Algorithm Analysis"
+        description="Algorithms aren't as mysterious as they may seem. Here's what you need to know about them."
+      />
     </div>
   )
 }
