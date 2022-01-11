@@ -1,7 +1,11 @@
+import { useEffect } from 'react'
 import { CodeBlock, railscast } from "react-code-blocks"
 import ArticleHeader from "../ArticleHeader"
 
 const AlgorithmBasics = () => {
+
+  useEffect(() => document.title = 'Basics of Algorithm Analysis | Brendan Chess', [])
+
   return (
     <div class='Article-container'>
       <div class='Article-body'>
