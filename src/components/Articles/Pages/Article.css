@@ -54,9 +54,13 @@
   font-size: 14px;
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 600px) {
   .Article-code-block {
-    max-width: 330px;
+    max-width: 85vw;
+  }
+
+  .Article-body {
+    text-align: start;
   }
 }
 
