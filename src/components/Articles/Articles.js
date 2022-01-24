@@ -18,6 +18,12 @@ const Articles = () => {
         title="Basics of Algorithm Analysis"
         description="Algorithms aren't as mysterious as they may seem. Here's what you need to know about them."
       />
+
+      <ArticleListItem 
+        path="/memory_pointers_and_dynamic_programming"
+        title="Memory, Pointers, and Dynamic Programming"
+        description="Here are the fundamentals of how our code works with memory. Pointers will become your best friend."
+      />
     </div>
   )
 }

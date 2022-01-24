@@ -1,5 +1,10 @@
 .Articles-item {
   text-align: start;
+  margin-bottom: 0;
+}
+
+.Articles-item:last-child {
+  margin-bottom: 60px;
 }
 
 .Articles-item a {
