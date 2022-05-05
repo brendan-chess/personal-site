@@ -1,0 +1,10 @@
+.Portfolio-container .Page-paragraph, .Page-caption {
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Portfolio-container .Page-caption {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
