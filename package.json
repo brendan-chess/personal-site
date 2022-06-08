@@ -1,11 +1,13 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
+  "homepage": "https://brendan-chess.github.io/personal-site/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-code-blocks": "^0.0.9-0",
     "react-dom": "^17.0.2",
@@ -14,8 +16,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
