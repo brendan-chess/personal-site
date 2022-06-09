@@ -9,12 +9,12 @@
 
 .Page-container * {
   margin: 20px 0px;
-  max-width: 300px;
+  /* max-width: 80%; */
 }
 
 .Page-divider {
   height: 2px;
-  width: 100%;
+  width: 300px;
   background-color: var(--red);
 }
 
@@ -29,7 +29,8 @@
 
 .Page-paragraph {
   font-size: 18px;
-  margin: 10px 0px;
+  margin: 8px 0px;
+  font-weight: 400;
 }
 
 .Page-caption {
